@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Acceuil.css">
+    <link rel="stylesheet" href="../css/jquery.funnyText.css">
+    <title>Acceuil</title>
+</head>
+<body>
+    <div id="logo">
+        <div id="image">
+            <p id="text">GeniUs</p>
+            <div id="authentif">
+                <a href="incription.html"><button>S'inscrire</button></a>
+                <a href="index.html"><button>Se connecter</button></a>
+            </div>
+            <!-- <img src="../image/logo.png" alt="Logo" id="logoImage"> -->
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/jquery.funnyText.min.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#text').funnyText({
+                speed: 500
+            });
+        });
+    </script>
+</body>
+</html>

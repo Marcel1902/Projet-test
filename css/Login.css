@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: Avant Garde;
+
+}
+body{
+    background:#102243;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    top: 10px;
+    color: #fff;
+    position: absolute;
+    font-weight: 900;
+    text-shadow:#FC0 1px 0 10px;
+    text-decoration: none;
+    left: 5%;
+    font-size: 35px;
+
+}
+.container .image{
+    width: 100%;
+}
+
+.container img {
+    width: 100%;
+    height: 50%;
+    margin-left: 55px;
+    margin-top: 55px;
+    box-shadow: 3px 3px 3px 3px aqua;
+    border-radius: 10px;
+}
+
+.container .login{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 65vh;
+}
+.container .login h2{
+    font-size: 30px;
+    color: #fff;
+    text-shadow: #fff 1px 0 10px;
+    text-align: center;
+}
+.container .login label{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.container .login input{
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.container .login button{
+    width: 40%;
+    height: 40px;
+    margin-top: 7%;
+    margin-left: 28%;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #00000033;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.sary img{
+    width: 100px;
+    height: 20vh;
+}
+
+
